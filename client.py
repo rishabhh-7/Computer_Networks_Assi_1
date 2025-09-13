@@ -2,6 +2,7 @@ import socket
 from scapy.all import rdpcap, DNS, DNSQR
 from datetime import datetime
 import csv
+import os
 
 def build_header(seq_id):
     now = datetime.now()
@@ -44,6 +45,7 @@ def run_client(pcap_file, server_host="127.0.0.1", server_port=9999, report_file
 
     print(f"\nReport saved to {report_file}")
 
-if __name__ == "__main__":
-    run_client("/Users/rishabhsmacbook/Desktop/IITGN/networks_assi_1/3.pcap") 
-    # run_client("/Users/rishabhsmacbook/Desktop/IITGN/networks_assi_1/test_dns.pcap")
+base_dir = os.path.dirname(os.path.abspath(__file__))
+pcap_path = os.path.join(base_dir, "3.pcap")
+
+run_client(pcap_path) 
