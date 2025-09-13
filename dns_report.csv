@@ -1,0 +1,24 @@
+CustomHeader,Domain,ResolvedIP
+23561800,_apple-mobdev._tcp.local.,192.168.1.11
+23561801,_apple-mobdev._tcp.local.,192.168.1.12
+23561802,netflix.com.,192.168.1.13
+23561903,Brother MFC-7860DW._pdl-datastream._tcp.local.,192.168.1.14
+23561904,Brother MFC-7860DW._pdl-datastream._tcp.local.,192.168.1.15
+23561905,linkedin.com.,192.168.1.11
+23561906,Brother MFC-7860DW._pdl-datastream._tcp.local.,192.168.1.12
+23561907,Brother MFC-7860DW._pdl-datastream._tcp.local.,192.168.1.13
+23562008,example.com.,192.168.1.14
+23562009,google.com.,192.168.1.15
+23562010,_apple-mobdev._tcp.local.,192.168.1.11
+23562011,Brother MFC-7860DW._pdl-datastream._tcp.local.,192.168.1.12
+23562012,Brother MFC-7860DW._pdl-datastream._tcp.local.,192.168.1.13
+23562113,facebook.com.,192.168.1.14
+23562114,Brother MFC-7860DW._pdl-datastream._tcp.local.,192.168.1.15
+23562115,Brother MFC-7860DW._pdl-datastream._tcp.local.,192.168.1.11
+23562116,_apple-mobdev._tcp.local.,192.168.1.12
+23562117,_apple-mobdev._tcp.local.,192.168.1.13
+23562118,Brother MFC-7860DW._pdl-datastream._tcp.local.,192.168.1.14
+23562119,Brother MFC-7860DW._pdl-datastream._tcp.local.,192.168.1.15
+23562120,Brother MFC-7860DW._pdl-datastream._tcp.local.,192.168.1.11
+23562121,Brother MFC-7860DW._pdl-datastream._tcp.local.,192.168.1.12
+23562122,amazon.com.,192.168.1.13
