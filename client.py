@@ -18,6 +18,8 @@ def run_client(pcap_file, server_host="127.0.0.1", server_port=9999, report_file
     counter = 0
     for pkt in packets:
         if pkt.haslayer(DNS) and pkt.getlayer(DNS).qr == 0:  # DNS Query only
+            if query_name.endswith(".local.") or query_name.startswith("_"): # skip mDNS discovery queries
+                continue
             query_name = pkt[DNSQR].qname.decode()
             header = build_header(seq_id)
             message = header.encode() + query_name.encode()
